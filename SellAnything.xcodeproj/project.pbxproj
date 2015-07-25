@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52EA536A58AAEA1167ADAF41 /* Pods_SellAnything.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1141F76161C2B47ECDF0B2DE /* Pods_SellAnything.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		561427C71B536B7B006D32D1 /* PhotoCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561427C61B536B7B006D32D1 /* PhotoCaptureViewController.swift */; };
+		561427C91B538AA2006D32D1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561427C81B538AA2006D32D1 /* Item.swift */; };
 		566E3A3C1B51DEF00022D4FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566E3A3B1B51DEF00022D4FB /* AppDelegate.swift */; };
 		566E3A3E1B51DEF00022D4FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566E3A3D1B51DEF00022D4FB /* ViewController.swift */; };
 		566E3A411B51DEF00022D4FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566E3A3F1B51DEF00022D4FB /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		566E3A461B51DEF00022D4FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566E3A441B51DEF00022D4FB /* LaunchScreen.storyboard */; };
 		566E3A511B51DEF00022D4FB /* SellAnythingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566E3A501B51DEF00022D4FB /* SellAnythingTests.swift */; };
 		566E3A5C1B51DEF00022D4FB /* SellAnythingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566E3A5B1B51DEF00022D4FB /* SellAnythingUITests.swift */; };
+		56BF30A71B5625140054BAEE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF30A61B5625140054BAEE /* ListViewController.swift */; };
+		56BF30A91B562A560054BAEE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF30A81B562A560054BAEE /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1141F76161C2B47ECDF0B2DE /* Pods_SellAnything.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SellAnything.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		561427C51B530E08006D32D1 /* SellAnything.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SellAnything.entitlements; sourceTree = "<group>"; };
+		561427C61B536B7B006D32D1 /* PhotoCaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureViewController.swift; sourceTree = "<group>"; };
+		561427C81B538AA2006D32D1 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5650F7CB1B562E020034E26D /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 		566E3A381B51DEF00022D4FB /* SellAnything.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SellAnything.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		566E3A3B1B51DEF00022D4FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		566E3A3D1B51DEF00022D4FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,11 @@
 		566E3A571B51DEF00022D4FB /* SellAnythingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SellAnythingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		566E3A5B1B51DEF00022D4FB /* SellAnythingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellAnythingUITests.swift; sourceTree = "<group>"; };
 		566E3A5D1B51DEF00022D4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BF30A31B5607CD0054BAEE /* SellAnything-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SellAnything-Bridging-Header.h"; sourceTree = "<group>"; };
+		56BF30A61B5625140054BAEE /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		56BF30A81B562A560054BAEE /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		909A21AA6965FCACBE73E99D /* Pods-SellAnything.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAnything.release.xcconfig"; path = "Pods/Target Support Files/Pods-SellAnything/Pods-SellAnything.release.xcconfig"; sourceTree = "<group>"; };
+		E3AF0E33C2B27AC36103E1BE /* Pods-SellAnything.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SellAnything.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SellAnything/Pods-SellAnything.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EA536A58AAEA1167ADAF41 /* Pods_SellAnything.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +90,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1725E15B00956AFC803A22A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF0E33C2B27AC36103E1BE /* Pods-SellAnything.debug.xcconfig */,
+				909A21AA6965FCACBE73E99D /* Pods-SellAnything.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		196CA21463890CCCA2696EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1141F76161C2B47ECDF0B2DE /* Pods_SellAnything.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		566E3A2F1B51DEF00022D4FB = {
 			isa = PBXGroup;
 			children = (
+				5650F7CB1B562E020034E26D /* test.playground */,
 				566E3A3A1B51DEF00022D4FB /* SellAnything */,
 				566E3A4F1B51DEF00022D4FB /* SellAnythingTests */,
 				566E3A5A1B51DEF00022D4FB /* SellAnythingUITests */,
 				566E3A391B51DEF00022D4FB /* Products */,
+				1725E15B00956AFC803A22A7 /* Pods */,
+				196CA21463890CCCA2696EE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +133,18 @@
 		566E3A3A1B51DEF00022D4FB /* SellAnything */ = {
 			isa = PBXGroup;
 			children = (
+				561427C51B530E08006D32D1 /* SellAnything.entitlements */,
 				566E3A3B1B51DEF00022D4FB /* AppDelegate.swift */,
 				566E3A3D1B51DEF00022D4FB /* ViewController.swift */,
 				566E3A3F1B51DEF00022D4FB /* Main.storyboard */,
 				566E3A421B51DEF00022D4FB /* Assets.xcassets */,
 				566E3A441B51DEF00022D4FB /* LaunchScreen.storyboard */,
 				566E3A471B51DEF00022D4FB /* Info.plist */,
+				561427C61B536B7B006D32D1 /* PhotoCaptureViewController.swift */,
+				561427C81B538AA2006D32D1 /* Item.swift */,
+				56BF30A31B5607CD0054BAEE /* SellAnything-Bridging-Header.h */,
+				56BF30A61B5625140054BAEE /* ListViewController.swift */,
+				56BF30A81B562A560054BAEE /* TableViewCell.swift */,
 			);
 			path = SellAnything;
 			sourceTree = "<group>";
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 566E3A601B51DEF00022D4FB /* Build configuration list for PBXNativeTarget "SellAnything" */;
 			buildPhases = (
+				3712693F7FEE900DC2824CF1 /* Check Pods Manifest.lock */,
 				566E3A341B51DEF00022D4FB /* Sources */,
 				566E3A351B51DEF00022D4FB /* Frameworks */,
 				566E3A361B51DEF00022D4FB /* Resources */,
+				26612DC7ED1BF34585299E8A /* Copy Pods Resources */,
+				BC1F0AF7DE13356ADDCE9533 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,11 +232,18 @@
 		566E3A301B51DEF00022D4FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Shrikar Archak";
 				TargetAttributes = {
 					566E3A371B51DEF00022D4FB = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2ZSEKXAT7V;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
+						};
 					};
 					566E3A4B1B51DEF00022D4FB = {
 						CreatedOnToolsVersion = 7.0;
@@ -250,13 +302,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26612DC7ED1BF34585299E8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SellAnything/Pods-SellAnything-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3712693F7FEE900DC2824CF1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1F0AF7DE13356ADDCE9533 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SellAnything/Pods-SellAnything-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		566E3A341B51DEF00022D4FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561427C91B538AA2006D32D1 /* Item.swift in Sources */,
 				566E3A3E1B51DEF00022D4FB /* ViewController.swift in Sources */,
 				566E3A3C1B51DEF00022D4FB /* AppDelegate.swift in Sources */,
+				56BF30A91B562A560054BAEE /* TableViewCell.swift in Sources */,
+				56BF30A71B5625140054BAEE /* ListViewController.swift in Sources */,
+				561427C71B536B7B006D32D1 /* PhotoCaptureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,23 +500,40 @@
 		};
 		566E3A611B51DEF00022D4FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AF0E33C2B27AC36103E1BE /* Pods-SellAnything.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SellAnything/SellAnything.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SellAnything/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shrikar.SellAnything;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SellAnything/SellAnything-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		566E3A621B51DEF00022D4FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909A21AA6965FCACBE73E99D /* Pods-SellAnything.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SellAnything/SellAnything.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SellAnything/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shrikar.SellAnything;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SellAnything/SellAnything-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -483,6 +604,7 @@
 				566E3A621B51DEF00022D4FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		566E3A631B51DEF00022D4FB /* Build configuration list for PBXNativeTarget "SellAnythingTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +613,7 @@
 				566E3A651B51DEF00022D4FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		566E3A661B51DEF00022D4FB /* Build configuration list for PBXNativeTarget "SellAnythingUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +622,7 @@
 				566E3A681B51DEF00022D4FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

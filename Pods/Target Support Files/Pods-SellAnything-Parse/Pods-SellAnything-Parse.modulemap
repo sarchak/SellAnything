@@ -1,0 +1,6 @@
+framework module Parse {
+  umbrella header "Pods-SellAnything-Parse-umbrella.h"
+
+  export *
+  module * { export * }
+}
